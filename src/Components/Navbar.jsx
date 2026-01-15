@@ -2,12 +2,18 @@ import React from "react";
 import imgnav from "../assets/navimg.png";
 import { Wallet } from "lucide-react";
 import { Search } from "lucide-react";
+import { Heart } from 'lucide-react';
+import { SlidersVertical } from 'lucide-react';
+import { ShoppingCart } from 'lucide-react';
+import { MessageSquare } from 'lucide-react';
+import { Sun } from 'lucide-react';
+import { CircleUser } from 'lucide-react';
 export default function Navbar() {
   return (
-    <nav>
+    <nav className="mt-5">
       <div className=" container  flex justify-between items-center ">
         <a href="#!" className="flex items-center  ">
-          <img className="w-[157px]" src={imgnav} alt="" />
+          <img className="w-[157px]" src={imgnav}na alt="" />
          
         </a>
         <li className="relative w-[400px] list-none">
@@ -26,39 +32,39 @@ export default function Navbar() {
             </a>
           </li>
           <li className="w-[72px] flex flex-col items-center justify-center">
-            <Wallet className="mb-1" />
+          <SlidersVertical className="mb-1" />
             <a href="#!" className="text-sm font-medium ">
             Сравненение
             </a>
           </li>
           <li className="w-[72px] flex flex-col items-center justify-center">
-            <Wallet className="mb-1" />
+          <Heart className="mb-1" />
             <a href="#!" className="text-sm font-medium">
             Избранное
             </a>
           </li>
           <li className="w-[72px] flex flex-col items-center justify-center">
-            <Wallet className="mb-1" />
+          <ShoppingCart className="mb-1" />
             <a href="#!" className="text-sm font-medium">
             Корзина
             </a>
           </li>
           <li className="w-[72px] flex flex-col items-center justify-center">
-            <Wallet className="mb-1" />
+          <MessageSquare className="mb-1" />
             <a href="#!" className="text-sm font-medium">
             Контакты
             </a>
           </li>
           <li className="w-[72px] flex flex-col items-center justify-center">
-            <Wallet className="mb-1" />
+            <Sun className="mb-1"/>
             <a href="#!" className="text-sm font-medium">
             Тема
             </a>
           </li>
-          <li className="w-[72px] flex flex-col items-center justify-center">
-            <Wallet className="mb-1" />
-            <a href="#!" className="text-sm font-medium">
-              
+          <li className="w-[72px] h-[62px] flex flex-col items-center justify-center bg-[#fdfdfd] 
+          border-2 ">
+            <a href="#!" className="text-sm font-medium ">
+            <CircleUser className="mb-1 " />
             </a>
           </li>
         </ul>
