@@ -49,11 +49,7 @@ export default function App() {
                 <p className=' underline underline-offset-4 decoration-pink-500'>Все вренды</p>
               </div>
               <div>
-
-              </div>
-            </div>
-          </div>
-          <Swiper
+              <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -77,6 +73,9 @@ export default function App() {
         <SwiperSlide><img className="w-full h-full object-cover" src={football} alt="" /></SwiperSlide>
         <SwiperSlide><img className="w-full h-full object-cover" src={klaviatura3} alt="" /></SwiperSlide>
       </Swiper>
+              </div>
+            </div>
+          </div>
         </header>
       </div>
     </div>
