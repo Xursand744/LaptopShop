@@ -1,9 +1,68 @@
-import React from 'react'
-
+import React from "react";
+import imgnav from "../assets/navimg.png";
+import { Wallet } from "lucide-react";
+import { Search } from "lucide-react";
 export default function Navbar() {
   return (
-    <div>
-      
-    </div>
-  )
+    <nav>
+      <div className=" container  flex justify-between items-center ">
+        <a href="#!" className="flex items-center  ">
+          <img className="w-[157px]" src={imgnav} alt="" />
+         
+        </a>
+        <li className="relative w-[400px] list-none">
+            <input
+              type="text"
+              placeholder="Поиск товаров..."
+              className="w-full h-[36px] px-3 pr-10 py-2 border border-black outline-none rounded " 
+            />
+            <Search className="absolute right-2 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-500 " />
+          </li>
+        <ul className="flex gap-[20px]">
+          <li className="w-[72px] flex flex-col items-center justify-center ">
+            <Wallet className="mb-1" />
+            <a href="#!" className="text-sm font-medium ">
+              UZS/USD
+            </a>
+          </li>
+          <li className="w-[72px] flex flex-col items-center justify-center">
+            <Wallet className="mb-1" />
+            <a href="#!" className="text-sm font-medium ">
+            Сравненение
+            </a>
+          </li>
+          <li className="w-[72px] flex flex-col items-center justify-center">
+            <Wallet className="mb-1" />
+            <a href="#!" className="text-sm font-medium">
+            Избранное
+            </a>
+          </li>
+          <li className="w-[72px] flex flex-col items-center justify-center">
+            <Wallet className="mb-1" />
+            <a href="#!" className="text-sm font-medium">
+            Корзина
+            </a>
+          </li>
+          <li className="w-[72px] flex flex-col items-center justify-center">
+            <Wallet className="mb-1" />
+            <a href="#!" className="text-sm font-medium">
+            Контакты
+            </a>
+          </li>
+          <li className="w-[72px] flex flex-col items-center justify-center">
+            <Wallet className="mb-1" />
+            <a href="#!" className="text-sm font-medium">
+            Тема
+            </a>
+          </li>
+          <li className="w-[72px] flex flex-col items-center justify-center">
+            <Wallet className="mb-1" />
+            <a href="#!" className="text-sm font-medium">
+              
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 }
