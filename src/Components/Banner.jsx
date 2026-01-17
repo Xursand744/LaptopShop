@@ -30,24 +30,7 @@ export default function App() {
         <header>
           <div className='container'>
             <div>
-              <div className='flex gap-[25px] items-center mt-[50px] mb-[10px]'>
-                <div className='flex bg-pink-500 py-[10px] px-[20px]'>
-                  <Grid2x2 className='w-[30px] h-[30px] text-[#fff]' />
-                  <p className=' pl-[10px] text-[#fff]'>Каталог</p>
-                </div>
-                <div className='flex items-center'>
-                  <Settings className='w-[35px] h-[35px] text-pink-500' />
-                  <p className='pl-[10px]'>Конфигуратор</p>
-                </div>
-                <div className='flex items-center'>
-                  <MonitorSpeaker className='w-[35px] h-[35px] text-pink-500' />
-                  <p className='pl-[10px]'>Купить компьютер</p>
-                </div>
-                <p>Новинки</p>
-                <p>Скидки на ноутбуки</p>
-                <p className='font-[700] underline underline-offset-4 decoration-pink-500'>НуpеrХ</p>
-                <p className=' underline underline-offset-4 decoration-pink-500'>Все вренды</p>
-              </div>
+             
               <div>
               <Swiper
         spaceBetween={30}
