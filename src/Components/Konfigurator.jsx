@@ -1,5 +1,5 @@
 import React from 'react'
-import Block from "../assets/Pc.png"
+import Block from "../assets/block.png"
 
 export default function Konfigurator() {
   return (
