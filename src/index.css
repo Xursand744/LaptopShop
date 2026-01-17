@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width:764px) {
+    
+.swiper-button-prev{
+    width: 25px !important;
+    height: 25px !important;
+
+}
+.swiper-button-next{
+    width: 25px !important;
+    height: 25px !important;
+
+}
+
+
+}
