@@ -3,7 +3,7 @@ import Kampyuter from '../assets/Kampyuter.png'
 export default function Acsesuars() {
   return (
     <div className='container mt-[50px] flex justify-center flex-wrap gap-[30px]'>
-
+      <h1 className='container text-[55px] font-bold'>Новинки</h1>
       <div className='w-[300px] text-center border-[2px] rounded-[20px] '>
         <img className='w-[250px]' src={Kampyuter} alt="" />
         <div className='text-center'>
