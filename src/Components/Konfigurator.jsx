@@ -25,7 +25,7 @@ export default function Konfigurator() {
           </button>
         </div>
 
-        <div className=" flex justify-center mt-[300px] w-[650px] h-[650px] " >
+        <div className=" flex justify-center mt-[300px] w-[550px] h-[550px] " >
        
           <img
             src={Block}
